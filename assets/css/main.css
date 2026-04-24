@@ -808,10 +808,10 @@ section,
   z-index: 3;
 }
 
-.hero h2 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
+.hero {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 120px;
 }
 
 .hero p {
