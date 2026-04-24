@@ -791,6 +791,7 @@ section,
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
   z-index: 1;
 }
 
@@ -853,6 +854,14 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero {
+    min-height: 80vh;
+  }
+
+  .hero img {
+    object-position: center top;
+  }
+
   .hero h2 {
     font-size: 32px;
   }
